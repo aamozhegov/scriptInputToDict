@@ -21,3 +21,4 @@ for customer, good in sorted_dict.items():
         sorted_li = sorted(li)
     print(customer, ':', sep='')
     print(*sorted_li, sep='\n')
+    print()
